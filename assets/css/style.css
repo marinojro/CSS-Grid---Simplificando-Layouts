@@ -8,13 +8,22 @@
 }
 
 .cabecalho {
+    display: flex;
+    align-items: center;
     grid-area: cabecalho;
+    padding: 0 2rem ;
 }
 
 .conteudo {
     grid-area: conteudo;
+    padding: 0 2rem;
 }
 
 .rodape {
+    background: #fdfdfd;
     grid-area: rodape;
+    color: #333333;
+    font-size: .8rem;
+    padding: 1rem;
+    text-align: center;
 }
